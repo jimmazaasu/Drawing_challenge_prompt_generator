@@ -1,0 +1,1 @@
+This program requires the use of two files: script.py and song.py. The latter contains class Song which is necessary for execution. I created the repo and tested the program using Git Bash. The other directory, called ideas_to_be tested contains files that are currently not necessary for the execution of the program, they are just some ideas Im working on to improve it.
