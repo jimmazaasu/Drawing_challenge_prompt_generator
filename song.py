@@ -7,7 +7,12 @@ class Songs:
     
     def add_song(self):
         user_song=input("Please enter a song title: ")
-        self.song_list.append(user_song)
+
+        if user_song not in self.song_list:
+            self.song_list.append(user_song)
+
+        else:
+            print("That song is already listed! O_o  Try another one")
     
     #def add_many_songs(self):
       #  user_playlist= input("Please enter a list of song titles: ")
@@ -27,8 +32,15 @@ class Songs:
           #  user_mood=input("What is your mood today?")
 
            # mood_list.append(user_mood)
+
     
 
     def choose_prompt(self):
         
             print (random.choice(self.song_list))  #chooses a random song from the list
+
+
+
+    
+
+        

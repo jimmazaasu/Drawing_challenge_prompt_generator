@@ -2,7 +2,7 @@ from song import Songs
 
 #The program itself
 
-song_database=Songs(["She s american","Red dress","Teenage dirtbag","Somebody Else", "El Duelo", "Rude", "F for you","Rose colored boy", "Cake pop", "Little Red Corvette", "Like I Love You","Love It If We Made It","Purple Rain","Girlfriend","If You re Too Shy (Let me know)","It´s Not Livin (If It´s Not With You)", "Nice For What"],13)
+song_database=Songs(["She s american","Red dress","Teenage dirtbag","Somebody Else", "El Duelo", "Rude", "F for you","Rose colored boy", "Cake pop", "Little Red Corvette", "Like I Love You","Love It If We Made It","Purple Rain","Girlfriend","If You re Too Shy (Let me know)","It´s Not Living (If It´s Not With You)", "Nice For What","Time After Time","Last Stardust","Thinking of You (I Drive Myself Crazy)"],21)
 
 
 
@@ -23,7 +23,7 @@ print("Your song database is now:")
 
 print(song_database.song_list)
 
-new_song_database=Songs(song_database.song_list,12)
+new_song_database=Songs(song_database.song_list,30)
 
 print("Here,  an extra prompt just for you")
 
